@@ -1,0 +1,112 @@
+.img{
+    height: 220px;
+    width: 380px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ddd7d7;
+    /* background-color: red; */
+}
+.main-container{
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+    height: 427px;
+    width: 380px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #ddd7d7; 
+}
+.demo_card{
+    /* background-color: white; */
+    /* padding-top: 40px; */
+    margin-top: -30px;
+    padding: 20px;
+    /* border: 1px solid red; */
+    /* border-radius: 10px; */
+    
+}
+.demo_card:hover{
+    /* background-color: grey; */
+}
+.container{
+   border: 1px solid grey;
+}
+.container:hover{
+   /* filter: grayscale(1); */
+   background-color: grey;
+   cursor: pointer;
+}
+.btn{
+   display: flex;
+   /* padding-top: 10px; */
+   gap: 38px;
+   /* cursor: pointer; */
+   background-color: white;
+   padding: 5px 7px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+.btn_text{
+    display: flex;
+    gap: 25px;
+    border: none;
+    /* border:1px solid red */
+    
+}
+
+.btn_read{
+    background-color:white ;
+    border: none;
+    
+    cursor: pointer;
+    padding: 8px 4px;
+}
+.btn_read:hover{
+    background-color: rgb(235, 229, 229);
+  
+   
+}
+.btn_font{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    /* border: 1px solid rebeccapurple; */
+    
+     /* margin: 40px; */
+}
+.fa-heart,.fa-share-alt,.fa-ellipsis-v{
+    /* border: 1px solid red; */
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.fa-heart:hover{
+    background-color: rgb(235, 229, 229);;
+   border-radius: 50%;
+    
+}
+.fa-share-alt:hover{
+    background-color: rgb(235, 229, 229);;   
+    border-radius: 50%;   
+}
+.fa-ellipsis-v:hover{
+    background-color: rgb(235, 229, 229);
+    /* height: 40px; */
+    /* width: 40px; */
+    
+    
+    border-radius: 50%;   
+}
+
+
+

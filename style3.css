@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@100;300;800&display=swap");
+
+/* icons  link */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+/* || reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* variables */
+:root {
+  --main-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  --hover-effect-color: #eeeded;
+  --light-gray: rgb(176, 176, 176);
+}
+
+/* || basic layout */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+  font-family: "PT Sans", sans-serif;
+
+  font-family: "Roboto", sans-serif;
+}
+/* || genral styling */
+html {
+  font-size: 100%;
+}
+body {
+  background-color: #f7f7f7;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1rem;
+}
+p {
+  font-size: 0.8rem;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+/*  */
+
+/* title styleing */
+#title {
+  background-color: gray;
+  font-weight: 300;
+  margin: 1rem;
+  color: white;
+  text-align: center;
+  box-shadow: var(--main-box-shadow);
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 75%;
+  }
+}
+/* || all component box */
+.component-box {
+  margin: 4rem;
+  border: 1px solid red;
+}
+
+/* || component one (basic card) */
+/* || component one (basic card) */
+/* || component one (basic card) */
+
+.component-one {
+  display: flex;
+  flex-direction: column;
+  height: 21rem;
+  width: 20rem;
+  border-radius: 4px;
+  box-shadow: var(--main-box-shadow);
+  border:1px solid blue;
+}
+/* component image */
+.comp-one-img {
+  height: 10rem;
+}
+.comp-one-img img {
+  border-radius: 4px 4px 0px 0px;
+}
+/* contant */
+.contant-comp-one {
+  margin: 1rem;
+}
+.contant-comp-one h2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.contant-comp-one h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 1rem;
+}
+.contant-comp-one p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: gray;
+}
+
+/* actice button */
+.comp-one-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.6rem;
+}
+.comp-one-btns span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 0.2rem;
+  padding: 0.4rem 0.6rem;
+  transition: 0.8s;
+}
+/* hover effect for buttons */
+.comp-one-btns span:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+
+.action-btn-comp-one {
+  margin-left: auto;
+}
+.action-btn-comp-one i {
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: 0.8s;
+}
+/* hover effect for action btn */
+.action-btn-comp-one i:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+/* || component one (basic card) */
+/* || component one (basic card) */
+/* || component one (basic card) */
+
+/* ----------------- */
+
+/* || conponent two */
+/* || conponent two */
+/* || conponent two */
+.component-two {
+  display: flex;
+  flex-direction: column;
+  height: 17rem;
+  width: 20rem;
+  border-radius: 4px;
+  box-shadow: var(--main-box-shadow);
+}
+
+.component-two h2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.component-two h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--light-gray);
+}
+.component-two p {
+  font-size: 0.9rem;
+  margin: 0.6rem;
+  font-weight: 300;
+  color: gray;
+}
+.comp-two-img-box img {
+  border-radius: 4px 4px 0px 0px;
+}
+
+/* comp two ing box */
+.comp-two-img-box {
+  height: 10rem;
+  margin-bottom: 0.6rem;
+}
+.overlap-comp-two {
+  margin: 1.2rem;
+  width: 18rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+}
+.overlap-comp-two p {
+  margin: 1.2rem;
+}
+
+.comp-two-contant {
+  margin-top: auto;
+}
+
+.comp-two-btns span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 0.3rem;
+  padding: 0.4rem 0.6rem;
+  transition: 0.8s;
+}
+/* hover effect for buttons */
+.comp-two-btns span:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+/* || conponent two */
+/* || conponent two */
+/* || conponent two */
+
+/* ---- */
+
+/* component three */
+/* component three */
+/* component three */
+
+.component-three {
+  display: flex;
+  flex-direction: column;
+  height: 11rem;
+  width: 25rem;
+  border-radius: 4px;
+  box-shadow: var(--main-box-shadow);
+}
+.comp-three-img {
+  height: 8rem;
+  width: 9rem;
+  margin-bottom: 0.2rem;
+}
+.comp-three-img img {
+  border-radius: 4px 0px 0px 0px;
+}
+
+.comp-three-head {
+  display: flex;
+}
+
+/* contant */
+.contant-comp-three {
+  margin: 1rem;
+}
+.contant-comp-three h2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.contant-comp-three h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 1rem;
+}
+.contant-comp-three p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: gray;
+}
+
+/* actice button */
+.comp-three-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.6rem;
+}
+.comp-three-btns span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 0.2rem;
+  padding: 0.4rem 0.6rem;
+  transition: 0.8s;
+}
+/* hover effect for buttons */
+.comp-three-btns span:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+
+.action-btn-comp-three {
+  margin-left: auto;
+}
+.action-btn-comp-three i {
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: 0.8s;
+}
+/* hover effect for action btn */
+.action-btn-comp-three i:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+
+/* component three */
+/* component three */
+/* component three */
+
+/* -------- */
+
+/* component four */
+/* component four */
+/* component four */
+
+.component-four {
+  display: flex;
+  flex-direction: column;
+  height: 21rem;
+  width: 20rem;
+  border-radius: 4px;
+  box-shadow: var(--main-box-shadow);
+}
+/* component image */
+.comp-four-img {
+  height: 10rem;
+}
+
+/* contant */
+.contant-comp-four {
+  margin: 0.8rem;
+}
+.contant-comp-four h2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.contant-comp-four h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: gray;
+}
+.contant-comp-four p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: gray;
+}
+
+/* actice button */
+.comp-four-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.4rem;
+}
+.comp-four-btns span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 0.2rem;
+  padding: 0.4rem 0.6rem;
+  transition: 0.8s;
+}
+/* hover effect for buttons */
+.comp-four-btns span:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+
+.action-btn-comp-four {
+  margin-left: auto;
+}
+.action-btn-comp-four i {
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: 0.8s;
+}
+/* hover effect for action btn */
+.action-btn-comp-four i:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
